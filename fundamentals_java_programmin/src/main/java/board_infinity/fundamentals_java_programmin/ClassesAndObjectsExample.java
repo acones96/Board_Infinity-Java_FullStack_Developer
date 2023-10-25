@@ -150,7 +150,7 @@ import java.util.Scanner;
                 return num1 + num2;
             }
 
-            public static int Addition(int num1, int num2, int num3) {
+            public final int Addition(int num1, int num2, int num3) {
                 return num1 + num2 + num3;
             }
 
@@ -158,11 +158,11 @@ import java.util.Scanner;
                 return num1 + num2;
             }
 
-            public static float Addition(int num1, float num2) {
+            public final float Addition(int num1, float num2) {
                 return num1 + num2;
             }
 
-            public static float Addition(float num1, int num2) {
+            public final float Addition(float num1, int num2) {
                 return num1 + num2;
             }
         }

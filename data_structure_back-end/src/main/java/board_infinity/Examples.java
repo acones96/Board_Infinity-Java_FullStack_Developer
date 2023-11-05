@@ -1,4 +1,4 @@
-package board_infinity.examples;
+package board_infinity;
 
 import java.util.*;
 

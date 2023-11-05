@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>edu.byu.hbll</groupId>
+    <artifactId>java-pom</artifactId>
+    <version>1.5.3</version>
+  </parent>
+
+  <groupId>board_infinity</groupId>
+  <artifactId>data_structure_back-end</artifactId>
+  <version>1.0.0</version>
+  <packaging>jar</packaging>
+
+  <properties>
+    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+  </properties>
+
+  <name>${project.groupId}:${project.artifactId}</name>
+  <description>Java course from coursera with spring, spring boot introductionand restful aplication with spring bood security.</description>
+  <url>https://bitbucket.org/byuhbll/data_structure_back-end</url>
+
+  <scm>
+    <connection>scm:git:git://bitbucket.org/byuhbll/data_structure_back-end.git</connection>
+    <developerConnection>scm:git:ssh://bitbucket.org:byuhbll/data_structure_back-end.git</developerConnection>
+    <url>https://bitbucket.org/byuhbll/data_structure_back-end</url>
+  </scm>
+
+  <dependencies>
+    <dependency>
+      <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-core</artifactId>
+      <version>6.0.9</version>
+    </dependency>
+
+
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>6.0.9</version>
+    </dependency>
+
+  </dependencies>
+
+</project>
